@@ -100,3 +100,63 @@
   width: 30px;
 }
 
+.section-estatistica {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 40px;
+  font-family: 'Monstserrat', sans-serif;
+
+  background-image: url("../public/assets/imagem-de-fundo.jpg");
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+.tabela-estatistica th {
+  font-size: 26px;
+  background-color: #000000cc;
+  color: #ffff;
+  text-shadow: 2px 2px 1px #000000;
+}
+
+.tabela-estatistica th, tr, td {
+  padding: 20px;
+}
+
+.primeira-coluna td {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  aligm-items: center;
+}
+
+.primeira-coluna img {
+  width: 30px;
+}
+
+.tabela-estatistica tbody td:nth-child(1) {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.tabela-estatistica tbody tr:nth-of-type(odd) {
+  background-color: #ffffffcc;
+  font-weight: 700;
+  font-size: 18px;
+  color: #000000;
+}
+
+.tabela-estatistica tbody tr:nth-of-type(even) {
+  background-color: #000000cc;
+  font-weight: 700;
+  font-size: 18px;
+  color: #fff;
+}
