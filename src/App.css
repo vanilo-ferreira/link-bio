@@ -264,3 +264,64 @@ td {
     width: 20px;
   }
 }
+
+@media (max-width: 480px) {
+  .container-info img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .borda-gradiente {
+    width: 110px;
+    height: 110px;
+  }
+
+  .container-info h1::before {
+    width: 45px;
+  }
+
+  .container-info h1::after {
+    width: 16px;
+    height: 16px;
+  }
+
+  .container-info h1 {
+    font-size: 40px;
+  }
+
+  .container-links {
+    width: 340px;
+  }
+
+  .efeito-sombra {
+    font-size: 44px;
+    text-shadow: 3px 4px 1px #000000;
+  }
+
+  .tabela-estatistica th {
+    font-size: 14px;
+  }
+
+  .tabela-estatistica th,
+  tr,
+  td {
+    padding: 5px;
+  }
+
+  .primeira-coluna {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .primeira-coluna img {
+    width: 12px;
+  }
+
+  .tabela-estatistica tbody tr:nth-of-type(odd) {
+    font-size: 14px;
+  }
+
+  .tabela-estatistica tbody tr:nth-of-type(even) {
+    font-size: 14px;
+  }
+}
