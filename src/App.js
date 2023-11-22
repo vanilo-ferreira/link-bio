@@ -43,69 +43,74 @@ function App() {
       <section className='section-estatistica'>
         <h2 className='efeito-sombra'>Estatísticas</h2>
         <table className='tabela-estatistica'>
-          <tr className="tabela-primeira-coluna">
-            <td>Times</td>
-            <td>Temporadas</td>
-            <td>Jogos</td>
-            <td>Gols</td>
-            <td>Assistências</td>
-            <td>Títulos</td>
-          </tr>
-          <tr>
-            <td className='primeira-coluna'>
-              <img src="./logo192.png" alt="" title="" />
-              <p>Brasil</p>
-            </td>
-            <td>13</td>
-            <td>124</td>
-            <td>77</td>
-            <td>77</td>
-            <td>2</td>
-          </tr>
-          <tr>
-            <td className='primeira-coluna'>
-              <img src="./logo192.png" alt="" title="" />
-              <p>Santos</p>
-            </td>
-            <td>5</td>
-            <td>230</td>
-            <td>138</td>
-            <td>77</td>
-            <td>6</td>
-          </tr>
-          <tr>
-            <td className='primeira-coluna'>
-              <img src="./logo192.png" alt="" title="" />
-              <p>Barcelona</p>
-            </td>
-            <td>4</td>
-            <td>186</td>
-            <td>105</td>
-            <td>77</td>
-            <td>8</td>
-          </tr>
-          <tr>
-            <td className='primeira-coluna'>
-              <img src="./logo192.png" alt="" title="" />
-              <p>PSG</p>
-            </td>
-            <td>6</td>
-            <td>173</td>
-            <td>118</td>
-            <td>77</td>
-            <td>13</td>
-          </tr>
-          <tr>
-            <td className='primeira-coluna'>
-              <img src="./logo192.png" alt="" title="" />
-              <p>Al-Hilal</p>
-            </td>
-            <td>1</td>
-            <td>0</td>
-            <td>0</td>
-            <td>77</td>
-            <td>0</td>
-          </tr>
+          <thead>
+            <tr className="tabela-primeira-coluna">
+              <th>Times</th>
+              <th>Temporadas</th>
+              <th>Jogos</th>
+              <th>Gols</th>
+              <th>Assistências</th>
+              <th>Títulos</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td className='primeira-coluna'>
+                <img src="./assets/cbf.png" alt="" title="" />
+                <p>Brasil</p>
+              </td>
+              <td>13</td>
+              <td>124</td>
+              <td>77</td>
+              <td>77</td>
+              <td>2</td>
+            </tr>
+            <tr>
+              <td className='primeira-coluna'>
+                <img src="./assets/santos.png" alt="" title="" />
+                <p>Santos</p>
+              </td>
+              <td>5</td>
+              <td>230</td>
+              <td>138</td>
+              <td>77</td>
+              <td>6</td>
+            </tr>
+            <tr>
+              <td className='primeira-coluna'>
+                <img src="./assets/barcelona.png" alt="" title="" />
+                <p>Barcelona</p>
+              </td>
+              <td>4</td>
+              <td>186</td>
+              <td>105</td>
+              <td>77</td>
+              <td>8</td>
+            </tr>
+            <tr>
+              <td className='primeira-coluna'>
+                <img src="./assets/psg.png" alt="" title="" />
+                <p>PSG</p>
+              </td>
+              <td>6</td>
+              <td>173</td>
+              <td>118</td>
+              <td>77</td>
+              <td>13</td>
+            </tr>
+            <tr>
+              <td className='primeira-coluna'>
+                <img src="./assets/alhilal.png" alt="" title="" />
+                <p>Al-Hilal</p>
+              </td>
+              <td>1</td>
+              <td>0</td>
+              <td>0</td>
+              <td>77</td>
+              <td>0</td>
+            </tr>
+          </tbody>
+
         </table>
       </section>
     </div>
