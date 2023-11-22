@@ -5,7 +5,9 @@ function App() {
   return (
     <div className="container">
       <section className='section-banner'>
-
+        <video  className="video" autoPlay loop muted >
+          <source src="./video/videoneymar.mp4" type="video/mp4" />
+        </video>
         <div className='container-info'>
           <div className='borda-gradiente'>
             <img src="./assets/neymar.jpg" alt="" title="" />
