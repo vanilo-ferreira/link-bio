@@ -5,6 +5,7 @@ function App() {
   return (
     <div className="container">
       <section className='section-banner'>
+
         <div className='container-info'>
           <div className='borda-gradiente'>
             <img src="./assets/neymar.jpg" alt="" title="" />
@@ -13,29 +14,30 @@ function App() {
         </div>
 
         <div className='container-links'>
-          <a className='links'  href="#teste">
+          <a className="links" href="https://www.youtube.com/@NeymarJrReal" target="_blank" rel="noreferrer">
             <img src="./assets/youtube.png" alt="" title="" />
             <p>Siga meu canal no Youtube</p>
-            </a>
-          <a className='links'  href="#teste">
+          </a>
+          <a className="links" href="https://www.instagram.com/neymarjr/" target="_blank" rel="noreferrer">
             <img src="./assets/instagram.png" alt="" title="" />
             <p>Me siga no Instagram</p>
-            
-            </a>
-          <a className='links'  href="#teste">
+          </a>
+
+          <a className="links" href="https://twitter.com/neymarjr" target="_blank" rel="noreferrer">
             <img src="./assets/twitter.png" alt="" title="" />
             <p>Me siga no Twitter</p>
-            
-            </a>
-          <a className='links'  href="#teste">
+          </a>
+
+          <a className="links" href="https://www.facebook.com/neymarjr" target="_blank" rel="noreferrer">
             <img src="./assets/facebook.png" alt="" title="" />
             <p>Me siga no Facebook</p>
-            
-            </a>
-          <a className='links'  href="#teste">
+          </a>
+
+          <a className="links" href="https://www.twitch.tv/neymarjr" target="_blank" rel="noreferrer">
             <img src="./assets/twitch.png" alt="" title="" />
             <p>Me siga no Twitch</p>
-            </a>
+          </a>
+
         </div>
       </section>
       <section className='section-estatistica'>
