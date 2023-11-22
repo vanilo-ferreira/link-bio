@@ -1,38 +1,102 @@
-.App {
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ysabeau Infant", sans-serif;
+}
+
+.section-banner {
+  font-family: "Ysabeau Infant", sans-serif;
+  width: 100%;
+  height: 100vh;
+  background-color: pink;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.container-info img {
+  width: 200px;
+  height: 200px;
+  gap: 20px;
+  border-radius: 100%;
+}
+
+.borda-gradiente {
+  width: 215px;
+  height: 215px;
+  gap: 20px;
+  background: linear-gradient(90deg, #ffdf00, #009c3b);
+  border-radius: 100%;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container-info {
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container-info h1 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container-links {
+  width: 768px;
+  margin: 20px auto;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.efeito-sombra {
+  font-size: 74px;
+  color: #fff;
+  text-shadow: 3px 6px 1px #000000;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.container-links {
+  max-width: 768px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
 }
+
+.container-links a{
+  width: 100%;
+  padding: 10px;
+
+  display: flex;
+  align-items: center;
+  gap: 5px;
+
+  font-size: 20px;
+  font-weight: 600;
+  text-decoration: none;
+  text-align: center;
+
+  border-radius: 20px;
+  background-color: #0200006e;
+  color: #fff;
+}
+
+.container-links a:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.container-links p {
+  width: 90%;
+}
+
+.links img {
+  width: 30px;
+}
+
